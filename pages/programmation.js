@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "../styles/Programmation.module.css";
 import Link from "next/link";
+import Head from "next/head";
 
 const Programmation = () => {
   const [programmeData, setProgrammeData] = useState(null);
@@ -25,7 +26,7 @@ const Programmation = () => {
 
   return (
     <>
-      <head>
+      <Head>
         <title>Programmation du Festival KifMuzic 2025 1er Edition</title>
         <meta
           name="description"
@@ -33,7 +34,7 @@ const Programmation = () => {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-      </head>
+      </Head>
       <div className={styles.body}>
         <header className={styles.header}>
           <Link href="/">

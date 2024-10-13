@@ -5,12 +5,12 @@ import styles from "@/styles/Home.module.css";
 import VideoHeader from "../components/VideoHeader/Videoheader";
 import Programme from "../components/Programme/Programme";
 import Link from "next/link";
-import Loader from "../components/loader/Loader";
+//import Loader from "../components/loader/Loader";
 
 export default function Home() {
   return (
-    <div>
-      <head>
+    <>
+      <Head>
         <title>Festival KifMuzic 2025 1er Edition</title>
         <meta
           name="description"
@@ -18,11 +18,11 @@ export default function Home() {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-      </head>
+      </Head>
       <div>
         <VideoHeader />
         <Programme />
       </div>
-    </div>
+    </>
   );
 }

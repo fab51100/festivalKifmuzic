@@ -16,7 +16,7 @@ body {
   align-items: center;
 }
 
-/* Icône de la carte */
+/* Icône carte */
 .carte-icon {
   position: absolute;
   top: 20px;
@@ -49,7 +49,7 @@ body {
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-/* Masquer hamburger quand le menu est ouvert */
+/* Masquer hamburger quand menu ouvert */
 .menu-icon.open span {
   opacity: 0;
 }
