@@ -84,9 +84,9 @@
                         "description": "Influents pionniers du rock alternatif, les Pixies ont inspiré de nombreux artistes avec leur son distinctif et leurs structures de chansons inhabituelles.",
                         "image": "../artistes/Pixies.webp",
                         "videos": [
-                            "https://example.com/pixies_video1",
-                            "https://example.com/pixies_video2",
-                            "https://example.com/pixies_video3"
+                            "https://www.youtube.com/watch?v=FiUNDeuBbi8",
+                            "https://www.youtube.com/watch?v=xJncHEZ3URs",
+                            "https://www.youtube.com/watch?v=tPgf_btTFlc"
                         ]
                     },
                     {
@@ -95,9 +95,9 @@
                         "description": "Mêlant funk, rock et punk, les Red Hot Chili Peppers sont connus pour leur énergie débordante et leurs tubes planétaires.",
                         "image": "../artistes/RHCP.webp",
                         "videos": [
-                            "https://example.com/rhcp_video1",
-                            "https://example.com/rhcp_video2",
-                            "https://example.com/rhcp_video3"
+                            "https://www.youtube.com/watch?v=YlUKcNNmywk",
+                            "https://www.youtube.com/watch?v=rn_YodiJO6k",
+                            "https://www.youtube.com/watch?v=aP-oFkZknS4"
                         ]
                     }
                 ]
@@ -123,9 +123,9 @@
                         "description": "Groupe de rock alternatif français mêlant chanson, punk et musiques traditionnelles, connu pour son engagement social.",
                         "image": "../artistes/Tetes-Raides.webp",
                         "videos": [
-                            "https://example.com/tetesraides_video1",
-                            "https://example.com/tetesraides_video2",
-                            "https://example.com/tetesraides_video3"
+                            "https://www.youtube.com/watch?v=T7UrCrJaukw",
+                            "https://www.youtube.com/watch?v=3nOCDTWLVEI",
+                            "https://www.youtube.com/watch?v=aIFFtsagXs0"
                         ]
                     },
                     {
@@ -134,9 +134,9 @@
                         "description": "Groupe de punk rock français influent, Les Thugs ont marqué la scène alternative des années 80 et 90.",
                         "image": "../artistes/thugs.webp",
                         "videos": [
-                            "https://example.com/lesthugs_video1",
-                            "https://example.com/lesthugs_video2",
-                            "https://example.com/lesthugs_video3"
+                            "https://www.youtube.com/watch?v=rsf_8Q8b6tw",
+                            "https://www.youtube.com/watch?v=JVXf14vQ05w",
+                            "https://www.youtube.com/watch?v=XpVM6FcodWQ"
                         ]
                     },
                     {
@@ -145,9 +145,9 @@
                         "description": "Groupe de rock français connu pour son univers poétique et décalé, mêlant rock, folk et musiques du monde.",
                         "image": "../artistes/Dionysos.webp",
                         "videos": [
-                            "https://example.com/dionysos_video1",
-                            "https://example.com/dionysos_video2",
-                            "https://example.com/dionysos_video3"
+                            "https://www.youtube.com/watch?v=LoqZ_7WTLY8",
+                            "https://www.youtube.com/watch?v=KOqYeaPEuew",
+                            "https://www.youtube.com/watch?v=gxXQok6-ohc"
                         ]
                     }
                 ]
