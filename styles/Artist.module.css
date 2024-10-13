@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rock+Salt&display=swap");
+
+.body {
+  background-color: black;
+  background-image: url(/imgprog/brick-blue.png);
+  width: 100%;
+  min-height: 100vh;
+}
+
+.logo {
+  width: 100%;
+  max-width: 200px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: "Permanent Marker", cursive;
+  border-radius: 100px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.artistInfo {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.artistImage {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.artistName {
+  font-size: clamp(32px, 4vw, 48px);
+  font-weight: 600;
+  color: #feca57;
+  margin-bottom: 0.5rem;
+}
+
+.concertInfo {
+  font-size: clamp(1rem, 3vw, 1.2rem);
+  color: #00d3fe;
+}
+
+.description {
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #fcfdc1;
+}
+
+.description h2 {
+  font-size: clamp(1.2rem, 4vw, 1.8rem);
+  color: #abf1fd;
+  margin-bottom: 1rem;
+}
+
+.videos {
+  margin-bottom: 2rem;
+  color: #00d3fe;
+}
+
+.videos h2 {
+  font-size: clamp(1.2rem, 4vw, 1.8rem);
+  color: #00d3fe;
+  margin-bottom: 1rem;
+}
+
+.videoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin: auto;
+  gap: auto;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.videoWrapper > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.backButton {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #5f74e6;
+  color: #fcfdc1;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.backButton:hover {
+  background-color: #0933ee;
+}

@@ -1,0 +1,88 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Icône de la carte */
+.carte-icon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+}
+
+.carte-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Hamberger */
+.menu-icon {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  flex-direction: column;
+  gap: 5px;
+  transition: opacity 0.3s ease;
+}
+
+.menu-icon span {
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Masquer hamburger quand le menu est ouvert */
+.menu-icon.open span {
+  opacity: 0;
+}
+
+/* La carte apparait au dessus*/
+.carte-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Bouton ferme la carte */
+.close-carte {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+/* Container de la carte */
+.leaflet-container {
+  width: 90%;
+  height: 80vh;
+}

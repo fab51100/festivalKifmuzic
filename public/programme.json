@@ -1,0 +1,157 @@
+{
+    "festival": {
+        "nom": "Festival Rock International",
+        "jours": [
+            {
+                "date": "Vendredi 11 Juillet",
+                "theme": "Soirée Rock Britannique",
+                "artistes": [
+                    {
+                        "horaire": "18h",
+                        "nom": "Radiohead",
+                        "description": "Groupe emblématique du rock alternatif britannique, connu pour son style expérimental et ses compositions innovantes.",
+                        "image": "../artistes/Radiohead.webp",
+                        "videos": [
+                            "https://www.youtube.com/watch?v=NXy5xdwJaIY&t",
+                            "https://www.youtube.com/watch?v=Qvu1lmoe004",
+                            "https://www.youtube.com/watch?v=3rs_3fe51GY"
+                        ]
+                    },
+                    {
+                        "horaire": "20h",
+                        "nom": "Arctic Monkeys",
+                        "description": "Groupe de rock indépendant originaire de Sheffield, célèbre pour ses paroles incisives et son énergie sur scène.",
+                        "image": "../artistes/Arctic-Monkeys.webp",
+                        "videos": [
+                            "https://www.youtube.com/watch?v=8O_A59PIMt8&pp",
+                            "https://www.youtube.com/watch?v=Wf57iwdMRZM&t",
+                            "https://www.youtube.com/watch?v=ppqP39p6VmI&pp"
+                        ]
+                    },
+                    {
+                        "horaire": "22h",
+                        "nom": "New Model Army",
+                        "description": "Groupe de rock alternatif britannique connu pour ses textes politiquement engagés et son style musical unique.",
+                        "image": "../artistes/nma.webp",
+                        "videos": [
+                            "https://www.youtube.com/watch?v=NMlIo4RjusU",
+                            "https://www.youtube.com/watch?v=oMi0-9w74Lc",
+                            "https://www.youtube.com/watch?v=Ye-hippf1c8"
+                        ]
+                    },
+                    {
+                        "horaire": "00h",
+                        "nom": "The Rolling Stones",
+                        "description": "Légendes vivantes du rock'n'roll, les Rolling Stones continuent d'électriser les foules depuis plus de 50 ans.",
+                        "image": "../artistes/Rolling-Stones.webp",
+                        "videos": [
+                            "https://www.youtube.com/watch?v=kfORcR2VSbc",
+                            "https://www.youtube.com/watch?v=HybtBxZKUY8",
+                            "https://www.youtube.com/watch?v=boeEcc6hirk"
+                        ]
+                    }
+                ]
+            },
+            {
+                "date": "Samedi 12 Juillet",
+                "theme": "Soirée Rock US",
+                "artistes": [
+                    {
+                        "horaire": "18h",
+                        "nom": "Pearl Jam",
+                        "description": "Pilier du mouvement grunge de Seattle, Pearl Jam est reconnu pour son engagement social et ses performances live intenses.",
+                        "image": "../artistes/pearl-jam.webp",
+                        "videos": [
+                            "https://www.youtube.com/watch?v=XTb9GNIxpMk",
+                            "https://www.youtube.com/watch?v=DGHo6g-IsSo",
+                            "https://www.youtube.com/watch?v=0unH11yjklE"
+                        ]
+                    },
+                    {
+                        "horaire": "20h",
+                        "nom": "Foo Fighters",
+                        "description": "Foo Fighters est un groupe américain de hard rock, formé à Seattle, Washington. Il est formé en 1994 durant la dissolution de Nirvana, à la suite de la mort de son leader Kurt Cobain",
+                        "image": "../artistes/foo-fighters.webp",
+                        "videos": [
+                            "https://www.youtube.com/watch?v=P2KnD7sfpoA",
+                            "https://www.youtube.com/watch?v=NWU33fvPxd0",
+                            "https://www.youtube.com/watch?v=qnIwCsQYoEc"
+                        ]
+                    },
+                    {
+                        "horaire": "22h",
+                        "nom": "Pixies",
+                        "description": "Influents pionniers du rock alternatif, les Pixies ont inspiré de nombreux artistes avec leur son distinctif et leurs structures de chansons inhabituelles.",
+                        "image": "../artistes/Pixies.webp",
+                        "videos": [
+                            "https://example.com/pixies_video1",
+                            "https://example.com/pixies_video2",
+                            "https://example.com/pixies_video3"
+                        ]
+                    },
+                    {
+                        "horaire": "00h",
+                        "nom": "Red Hot Chili Peppers",
+                        "description": "Mêlant funk, rock et punk, les Red Hot Chili Peppers sont connus pour leur énergie débordante et leurs tubes planétaires.",
+                        "image": "../artistes/RHCP.webp",
+                        "videos": [
+                            "https://example.com/rhcp_video1",
+                            "https://example.com/rhcp_video2",
+                            "https://example.com/rhcp_video3"
+                        ]
+                    }
+                ]
+            },
+            {
+                "date": "Dimanche 13 Juillet",
+                "theme": "Soirée Rock Français",
+                "artistes": [
+                    {
+                        "horaire": "18h",
+                        "nom": "Hubert Félix Thiéfaine",
+                        "description": "Auteur-compositeur-interprète français, Thiéfaine est reconnu pour ses textes poétiques et son univers musical unique.",
+                        "image": "../artistes/HFT.webp",
+                        "videos": [
+                            "https://www.youtube.com/watch?v=UVDENv7wmyg",
+                            "https://www.youtube.com/watch?v=bsxIEbh1fo4",
+                            "https://www.youtube.com/watch?v=epqGvW28BZ4"
+                        ]
+                    },
+                    {
+                        "horaire": "20h",
+                        "nom": "Têtes Raides",
+                        "description": "Groupe de rock alternatif français mêlant chanson, punk et musiques traditionnelles, connu pour son engagement social.",
+                        "image": "../artistes/Tetes-Raides.webp",
+                        "videos": [
+                            "https://example.com/tetesraides_video1",
+                            "https://example.com/tetesraides_video2",
+                            "https://example.com/tetesraides_video3"
+                        ]
+                    },
+                    {
+                        "horaire": "22h",
+                        "nom": "Les Thugs",
+                        "description": "Groupe de punk rock français influent, Les Thugs ont marqué la scène alternative des années 80 et 90.",
+                        "image": "../artistes/thugs.webp",
+                        "videos": [
+                            "https://example.com/lesthugs_video1",
+                            "https://example.com/lesthugs_video2",
+                            "https://example.com/lesthugs_video3"
+                        ]
+                    },
+                    {
+                        "horaire": "00h",
+                        "nom": "Dionysos",
+                        "description": "Groupe de rock français connu pour son univers poétique et décalé, mêlant rock, folk et musiques du monde.",
+                        "image": "../artistes/Dionysos.webp",
+                        "videos": [
+                            "https://example.com/dionysos_video1",
+                            "https://example.com/dionysos_video2",
+                            "https://example.com/dionysos_video3"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
