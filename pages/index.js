@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Festival KifMuzic 2025 1er Edition</title>
+        <title>Festival KifMuzic 2025 première Edition</title>
         <meta
           name="description"
           content="La KiMuzic Team vous accueil à l'hippodrome de longchamp du 11 au 13 Juillet 2025 pour son premier festival de musique"
