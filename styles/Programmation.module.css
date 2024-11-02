@@ -1,6 +1,6 @@
 .body {
-  background-color: black;
-  background-image: url(/imgprog/brick-red.png);
+  background: url("/fond.png") no-repeat center center fixed;
+  background-size: cover;
   width: 100%;
   min-height: 100vh;
 }
@@ -11,9 +11,16 @@
 }
 
 .container {
-  background-color: #660000;
+  background: rgb(249, 198, 45);
+  background: linear-gradient(
+    90deg,
+    rgba(249, 198, 45, 1) 0%,
+    rgba(218, 72, 75, 0.5172269591430323) 39%,
+    rgba(249, 198, 45, 1) 82%
+  );
   max-width: 1200px;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+  margin-left: auto;
   padding: 2rem;
   border-radius: 50px;
 }

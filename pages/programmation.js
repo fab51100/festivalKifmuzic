@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from "../styles/Programmation.module.css";
+import Footer from "@/components/Footer/Footer";
 import Link from "next/link";
 import Head from "next/head";
 
@@ -38,7 +39,7 @@ const Programmation = () => {
       <div className={styles.body}>
         <header className={styles.header}>
           <Link href="/">
-            <img src="/02.png" alt="Logo du site" className={styles.logo} />
+            <img src="/logo.png" alt="Logo du site" className={styles.logo} />
           </Link>
         </header>
         <div className={styles.container}>
@@ -67,8 +68,11 @@ const Programmation = () => {
               </Link>
             ))}
           </div>
-        </div>
+        </div>{" "}
+        <br />
+        <br />
       </div>
+      <Footer />
     </>
   );
 };

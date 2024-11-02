@@ -2,10 +2,10 @@ import Head from "next/head";
 import Image from "next/image";
 import localFont from "next/font/local";
 import styles from "@/styles/Home.module.css";
-import VideoHeader from "../components/VideoHeader/Videoheader";
+import Videoheader from "../components/VideoHeader/Videoheader";
 import Programme from "../components/Programme/Programme";
 import Link from "next/link";
-//import Loader from "../components/loader/Loader";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -20,8 +20,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        <VideoHeader />
+        <Videoheader />
         <Programme />
+        <Footer />
       </div>
     </>
   );

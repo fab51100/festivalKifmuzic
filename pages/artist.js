@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import VideoPlayer from "../components/VideoPlayer";
 import styles from "../styles/Artist.module.css";
 import programme from "../public/programme.json";
+import Footer from "@/components/Footer/Footer";
 import Link from "next/link";
 import Head from "next/head";
 
@@ -45,7 +46,7 @@ const Artist = () => {
       <div className={styles.body}>
         <header className={styles.header}>
           <Link href="/">
-            <img src="/02.png" alt="Logo du site" className={styles.logo} />
+            <img src="/logo.png" alt="Logo du site" className={styles.logo} />
           </Link>
         </header>
         <div className={styles.container}>
@@ -85,8 +86,12 @@ const Artist = () => {
               Retour à l'accueil
             </Link>
           </footer>
-        </div>
+        </div>{" "}
+        <br />
+        <br />
       </div>
+
+      <Footer />
     </>
   );
 };

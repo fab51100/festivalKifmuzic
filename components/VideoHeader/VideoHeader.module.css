@@ -36,7 +36,7 @@
 
 .logo {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
@@ -47,17 +47,18 @@
   height: 512px;
 }
 
-.p01 {
-  background-color: aqua;
-  z-index: 999;
-}
-
-.p02 {
-  background-color: aqua;
-  z-index: 999;
+.imgLogo {
+  width: 100%;
 }
 
 @media (max-width: 1000px) {
+  .imgLogo {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
   .imgLogo {
     width: 150px;
     height: 150px;
