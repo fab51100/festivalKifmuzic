@@ -1,0 +1,111 @@
+.body {
+  background: url("/fond.png") no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.logo {
+  width: 100%;
+  max-width: 200px;
+}
+
+.container {
+  background: rgb(249, 198, 45);
+  background: linear-gradient(
+    90deg,
+    rgba(249, 198, 45, 1) 0%,
+    rgba(249, 198, 45, 1) 50%,
+    rgba(249, 198, 45, 1) 100%
+  );
+  /*
+  background: rgb(249, 198, 45);
+  background: linear-gradient(
+    90deg,
+    rgba(249, 198, 45, 1) 0%,
+    rgba(218, 72, 75, 0.5172269591430323) 39%,
+    rgba(249, 198, 45, 1) 82%
+  );
+  */
+  max-width: 1200px;
+  /*margin: 0 auto;*/
+  margin-left: auto;
+  padding: 2rem;
+  border-radius: 50px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #f56565;
+}
+
+/* Logo Slider */
+
+.logoslider {
+  -webkit-box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.125);
+  box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.125);
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.logoslider::after {
+  right: 0;
+  top: 0;
+  -webkit-transform: rotateZ(180deg);
+  transform: rotateZ(180deg);
+}
+
+.logoslider::before {
+  left: 0;
+  top: 0;
+}
+
+.logoslider .logoslidetrack {
+  -webkit-animation: logo-scroll 60s linear infinite;
+  animation: logo-scroll 60s linear infinite;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: calc(250px * 14);
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+}
+
+.logoslider .slide {
+  height: 200px;
+  width: 250px;
+  padding: 20px;
+}
+
+@-webkit-keyframes logo-scroll {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    -webkit-transform: translateX(calc(-250px * 7));
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+@keyframes logo-scroll {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    -webkit-transform: translateX(calc(-250px * 7));
+    transform: translateX(calc(-250px * 7));
+  }
+}

@@ -43,7 +43,7 @@ const secoursIcon = new Icon({
   iconSize: [30, 30],
 });
 /*
-// Géolocalisation de l'utilisateur désactivé pour l'exercice
+// Géolocalisation de l'utilisateur désactivé pour l'exercice, pour visualiser le lieu du festival
 const UserLocationMarker = () => {
   const [position, setPosition] = useState(null);
 
@@ -132,18 +132,16 @@ const Carte = () => {
           <>
             <Marker position={[48.866, 2.217]} icon={sceneIcon}>
               <Popup>
-                Scène principale : Main Stage
+                Scène Rock US
                 <br />
                 Les plus grands artistes ici !
               </Popup>
             </Marker>
             <Marker position={[48.863, 2.214]} icon={sceneIcon}>
-              <Popup>Rock Stage : Scène dédiée au rock alternatif !</Popup>
+              <Popup>Scéne Rock Britannique</Popup>
             </Marker>
             <Marker position={[48.865, 2.221]} icon={sceneIcon}>
-              <Popup>
-                Electro Stage : Scène électro pour des nuits festives !
-              </Popup>
+              <Popup>Scéne Rock Français</Popup>
             </Marker>
           </>
         )}
@@ -164,7 +162,7 @@ const Carte = () => {
         {visibleLayers.food && (
           <>
             <Marker position={[48.864, 2.219]} icon={foodIcon}>
-              <Popup>Food Court : Un large choix de nourriture !</Popup>
+              <Popup>Restauration : Un large choix de nourriture !</Popup>
             </Marker>
             <Marker position={[48.864, 2.216]} icon={foodIcon}>
               <Popup>Bar principal : Rafraîchissements disponibles.</Popup>
@@ -194,7 +192,7 @@ const Carte = () => {
         {/* Postes de secours */}
         {visibleLayers.secours && (
           <Marker position={[48.864, 2.214]} icon={secoursIcon}>
-            <Popup>Poste de secours et sécurité (central).</Popup>
+            <Popup>Poste de secours et sécurité.</Popup>
           </Marker>
         )}
       </MapContainer>

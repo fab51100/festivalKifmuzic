@@ -1,0 +1,159 @@
+.body {
+  background: url("/fond.png") no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.logo {
+  width: 100%;
+  max-width: 200px;
+}
+
+.container {
+  /* background-color: rgba(63, 63, 63, 0.7);*/
+
+  background: rgb(249, 198, 45);
+  background: linear-gradient(
+    90deg,
+    rgba(249, 198, 45, 1) 0%,
+    rgba(218, 72, 75, 0.5172269591430323) 39%,
+    rgba(249, 198, 45, 1) 82%
+  );
+
+  max-width: 900px;
+  /*margin: 0 auto;*/
+  margin-left: auto;
+  margin-right: 50px;
+  padding: 2rem;
+  border-radius: 50px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #f56565;
+}
+
+/*
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+.slider {
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  height: 200px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 960px;
+}
+/*
+.slider::before,
+.slider::after {
+  background: linear-gradient(
+    to right,
+    rgb(190, 178, 2) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+
+  content: "";
+  height: 200px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider::before {
+  left: 0;
+  top: 0;
+}
+*/
+/*
+.slider .slidetrack {
+  -webkit-animation: scroll 40s linear infinite;
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+.slider .slide {
+  padding-right: 10px;
+  height: 200px;
+  width: 250px;
+}
+*/
+
+/* FAQ Styles */
+.faq {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.faqItem {
+  margin-bottom: 20px;
+}
+
+.faqQuestion {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  /*background-color: #f9c62d;*/
+  border-radius: 5px;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.faqQuestion:hover {
+  background-color: #e7f708;
+}
+
+.faqAnswer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.faqAnswer p {
+  padding: 10px;
+  background-color: #eef865;
+  margin: 0;
+  border-radius: 0 0 5px 5px;
+}
+
+/* Montre la réponse */
+.faqAnswer.open {
+  max-height: 200px;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .faq {
+    flex: 1;
+  }
+}

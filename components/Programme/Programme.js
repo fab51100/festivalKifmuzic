@@ -26,7 +26,7 @@ export default function Programme() {
   return (
     <div className={styles.container}>
       <div className={styles.welcome}>
-        <h2>Bienvenue au KifMusic Festival!</h2>
+        <h2>Bienvenue au KifMuzic Festival!</h2>
         <p>
           Chers festivaliers, préparez-vous à vivre une expérience musicale
           inoubliable ! Pendant trois jours, l'hippodrome de Longchamps à Paris
@@ -34,7 +34,7 @@ export default function Programme() {
           américain et français. Que vous soyez fan de Radiohead, Pearl Jam ou
           Dionysos, vous trouverez votre bonheur sur nos scènes. N'oubliez pas
           votre bonne humeur, votre énergie et votre amour pour la musique live.
-          Le KifMusic Festival, c'est votre festival !
+          Le KifMuzic Festival, c'est votre festival !
         </p>
       </div>
       <div className={styles.festival}>

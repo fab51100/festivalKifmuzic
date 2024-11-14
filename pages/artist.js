@@ -9,7 +9,7 @@ import Head from "next/head";
 
 const Artist = () => {
   const router = useRouter();
-  const { id } = router.query; // Récupérer l'ID de l'URL
+  const { id } = router.query; // Récupérer l'id de l'URL
   const [artistData, setArtistData] = useState(null);
 
   useEffect(() => {
@@ -80,7 +80,7 @@ const Artist = () => {
             </div>
           </div>
 
-          {/* Bouton Retour à l'accueil */}
+          {/* Bouton retour à l'accueil */}
           <footer className={styles.footer}>
             <Link href="/" className={styles.backButton}>
               Retour à l'accueil

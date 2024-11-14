@@ -9,7 +9,7 @@ const Carte = dynamic(() => import("../components/Carte/Carte"), {
 
 function MyApp({ Component, pageProps }) {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [carteOpen, setCarteOpen] = useState(false); // État pour gérer l'ouverture de la carte
+  const [carteOpen, setCarteOpen] = useState(false); // Etat pour gérer l'ouverture de la carte
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);

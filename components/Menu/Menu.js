@@ -12,14 +12,26 @@ const Menu = ({ closeMenu }) => {
         <ul>
           <li>
             <Link href="/" onClick={closeMenu}>
-              <img src="../electric-guitar.png" />
+              <img className={styles.iconMenu} src="/icons/house.png" />
               Accueil
             </Link>
           </li>
           <li>
             <Link href="/programmation" onClick={closeMenu}>
-              <img src="../electric-guitar.png" />
+              <img className={styles.iconMenu} src="/icons/music-notes.png" />
               Programmation
+            </Link>
+          </li>
+          <li>
+            <Link href="/partners" onClick={closeMenu}>
+              <img className={styles.iconMenu} src="/icons/deal.png" />
+              Partenaires
+            </Link>
+          </li>
+          <li>
+            <Link href="/faq" onClick={closeMenu}>
+              <img className={styles.iconMenu} src="/icons/signpost.png" />
+              FAQ
             </Link>
           </li>
         </ul>

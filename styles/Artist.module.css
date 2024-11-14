@@ -19,13 +19,15 @@
   padding: 2rem;
   font-family: "Permanent Marker", cursive;
   border-radius: 100px;
-  background: rgb(249, 198, 45);
+  background-color: rgba(37, 37, 37, 0.8);
+  /*background: rgb(249, 198, 45);
   background: linear-gradient(
     90deg,
     rgba(249, 198, 45, 1) 0%,
     rgba(218, 72, 75, 0.5172269591430323) 39%,
     rgba(249, 198, 45, 1) 82%
   );
+  */
 }
 
 .header {

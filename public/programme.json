@@ -9,7 +9,7 @@
                     {
                         "horaire": "18h",
                         "nom": "Radiohead",
-                        "description": "Groupe emblématique du rock alternatif britannique, connu pour son style expérimental et ses compositions innovantes.",
+                        "description": "Radiohead est un groupe de rock britannique, originaire d'Abingdon, dans l'Oxfordshire. Formé en 1985, il est composé de Thom Yorke, des frères Jonny Greenwood et Colin Greenwood, Ed O'Brien, et Phil Selway. Formé au lycée, le groupe signe avec EMI en 1991, et sort son premier single, Creep, en 1992.",
                         "image": "../artistes/Radiohead.webp",
                         "videos": [
                             "https://www.youtube.com/watch?v=NXy5xdwJaIY&t",
@@ -20,7 +20,7 @@
                     {
                         "horaire": "20h",
                         "nom": "Arctic Monkeys",
-                        "description": "Groupe de rock indépendant originaire de Sheffield, célèbre pour ses paroles incisives et son énergie sur scène.",
+                        "description": "Arctic Monkeys est un groupe britannique de rock indépendant originaire de Sheffield en Angleterre. Il est formé en 2002, plus précisément à High Green, une banlieue de Sheffield. Le groupe est composé d'Alex Turner, de Jamie Cook, de Nick O'Malley, et de Matt Helders.",
                         "image": "../artistes/Arctic-Monkeys.webp",
                         "videos": [
                             "https://www.youtube.com/watch?v=8O_A59PIMt8&pp",
@@ -31,7 +31,7 @@
                     {
                         "horaire": "22h",
                         "nom": "New Model Army",
-                        "description": "Groupe de rock alternatif britannique connu pour ses textes politiquement engagés et son style musical unique.",
+                        "description": "New Model Army, aussi abrégé NMA, est un groupe de rock indépendant britannique, originaire de Bradford, West Yorkshire, en Angleterre. Il est formé en 1980 par Justin Sullivan et Robert Heaton.",
                         "image": "../artistes/nma.webp",
                         "videos": [
                             "https://www.youtube.com/watch?v=NMlIo4RjusU",
@@ -42,7 +42,7 @@
                     {
                         "horaire": "00h",
                         "nom": "The Rolling Stones",
-                        "description": "Légendes vivantes du rock'n'roll, les Rolling Stones continuent d'électriser les foules depuis plus de 50 ans.",
+                        "description": "The Rolling Stones est un groupe rock britannique originaire de Londres, en Angleterre. Il est formé en 1962 par le guitariste et leader originel Brian Jones, le pianiste Ian Stewart, le chanteur Mick Jagger, le guitariste Keith Richards, le bassiste Dick Taylor et le batteur Mick Avory.",
                         "image": "../artistes/Rolling-Stones.webp",
                         "videos": [
                             "https://www.youtube.com/watch?v=kfORcR2VSbc",
@@ -59,7 +59,7 @@
                     {
                         "horaire": "18h",
                         "nom": "Pearl Jam",
-                        "description": "Pilier du mouvement grunge de Seattle, Pearl Jam est reconnu pour son engagement social et ses performances live intenses.",
+                        "description": "Pearl Jam est un groupe de rock américain, originaire de Seattle, ville de l'État de Washington. Formé en 1990, par le guitariste Stone Gossard et le bassiste Jeff Ament.",
                         "image": "../artistes/pearl-jam.webp",
                         "videos": [
                             "https://www.youtube.com/watch?v=XTb9GNIxpMk",
@@ -81,7 +81,7 @@
                     {
                         "horaire": "22h",
                         "nom": "Pixies",
-                        "description": "Influents pionniers du rock alternatif, les Pixies ont inspiré de nombreux artistes avec leur son distinctif et leurs structures de chansons inhabituelles.",
+                        "description": "Pixies est un groupe de rock alternatif américain, originaire de Boston, dans le Massachusetts. Formé en 1986, le groupe se sépare en janvier 1993 dans des conditions quelque peu houleuses, mais s’est reformé en avril 2004.",
                         "image": "../artistes/Pixies.webp",
                         "videos": [
                             "https://www.youtube.com/watch?v=FiUNDeuBbi8",
@@ -92,7 +92,7 @@
                     {
                         "horaire": "00h",
                         "nom": "Red Hot Chili Peppers",
-                        "description": "Mêlant funk, rock et punk, les Red Hot Chili Peppers sont connus pour leur énergie débordante et leurs tubes planétaires.",
+                        "description": "Les Red Hot Chili Peppers sont un groupe de funk rock américain, originaire de Los Angeles, en Californie, actif depuis 1982. Mêlant funk, rock et punk, les Red Hot Chili Peppers sont connus pour leur énergie débordante et leurs tubes planétaires.",
                         "image": "../artistes/RHCP.webp",
                         "videos": [
                             "https://www.youtube.com/watch?v=YlUKcNNmywk",
@@ -109,7 +109,7 @@
                     {
                         "horaire": "18h",
                         "nom": "Hubert Félix Thiéfaine",
-                        "description": "Auteur-compositeur-interprète français, Thiéfaine est reconnu pour ses textes poétiques et son univers musical unique.",
+                        "description": "Hubert-Félix Thiéfaine, né le 21 juillet 1948 à Dole, est un auteur-compositeur-interprète français. Auteur-compositeur-interprète français, Thiéfaine est reconnu pour ses textes poétiques et son univers musical unique.",
                         "image": "../artistes/HFT.webp",
                         "videos": [
                             "https://www.youtube.com/watch?v=UVDENv7wmyg",
@@ -120,7 +120,7 @@
                     {
                         "horaire": "20h",
                         "nom": "Têtes Raides",
-                        "description": "Groupe de rock alternatif français mêlant chanson, punk et musiques traditionnelles, connu pour son engagement social.",
+                        "description": "Têtes raides est un groupe de rock français, originaire de la banlieue parisienne, formé en 1984. Il mélange la musique de cirque moderne, la poésie, la peinture et le théâtre",
                         "image": "../artistes/Tetes-Raides.webp",
                         "videos": [
                             "https://www.youtube.com/watch?v=T7UrCrJaukw",
@@ -131,7 +131,7 @@
                     {
                         "horaire": "22h",
                         "nom": "Les Thugs",
-                        "description": "Groupe de punk rock français influent, Les Thugs ont marqué la scène alternative des années 80 et 90.",
+                        "description": "Les Thugs est un groupe de rock français, originaire d'Angers. Il est d'abord actif entre 1983 et 1999, puis entre 2008 et 2009. Auteur de plusieurs albums jusqu'en 1999, certains seront publiés par le label américain de rock alternatif Sub Pop.",
                         "image": "../artistes/thugs.webp",
                         "videos": [
                             "https://www.youtube.com/watch?v=rsf_8Q8b6tw",
@@ -142,7 +142,7 @@
                     {
                         "horaire": "00h",
                         "nom": "Dionysos",
-                        "description": "Groupe de rock français connu pour son univers poétique et décalé, mêlant rock, folk et musiques du monde.",
+                        "description": "Dionysos est un groupe de rock français, originaire de Valence, dans la Drôme. Formé en 1993, le groupe doit notamment son succès à ses prestations scéniques et à l'univers particulier dans lequel évolue le groupe. Les textes, en anglais comme en français, évoquent un univers surréaliste.",
                         "image": "../artistes/Dionysos.webp",
                         "videos": [
                             "https://www.youtube.com/watch?v=LoqZ_7WTLY8",
